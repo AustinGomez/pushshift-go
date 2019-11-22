@@ -58,7 +58,7 @@ Full  a look at the full documentation at and consider donating at https://pushs
 
 ## Restrictions
 
-PushShift rate limits the API to around ~200 requests per second by IP address. No authentication is required.
+PushShift rate limits you by IP address to around ~200 requests per minute. No authentication is required.
 
 
 ## Roadmap
