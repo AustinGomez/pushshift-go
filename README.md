@@ -16,3 +16,7 @@ Full  a look at the full documentation at and consider donating at https://pushs
 
 PushShift rate limits the API to around ~200 requests per second by IP address. No authentication is required.
 
+
+## Roadmap
+
+Currently only searching Submissions is implemented. Full implementation to come.
