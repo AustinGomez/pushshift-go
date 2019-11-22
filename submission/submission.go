@@ -2,7 +2,6 @@ package submission
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -70,7 +69,6 @@ func Search(params SearchParams) List {
 
 // Search returns a List from the given params.
 func (c Client) Search(params SearchParams) List {
-	fmt.Printf("Params in Search %v", params)
 	v, err := query.Values(params)
 	if err != nil {
 		log.Panic(err)

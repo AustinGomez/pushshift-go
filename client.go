@@ -1,6 +1,6 @@
 package pushshift
 
-import "github.com/AustinGomez/pushshift-golang/submission"
+import "github.com/AustinGomez/pushshift-go/submission"
 
 // PushShift is an Http.Client wrapper.
 type PushShift struct {
