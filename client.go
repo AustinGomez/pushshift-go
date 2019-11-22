@@ -1,6 +1,10 @@
 package pushshift
 
-import "github.com/AustinGomez/pushshift-go/submission"
+import (
+	"net/http"
+
+	"github.com/AustinGomez/pushshift-go/submission"
+)
 
 // PushShift is an Http.Client wrapper.
 type PushShift struct {
@@ -9,7 +13,7 @@ type PushShift struct {
 
 // Init itializes the API client.
 func (ps *PushShift) Init() {
-	ps.Submissions = &submission.Client{}
+	ps.Submissions = &submission.Client{Backend: &http.Client{}}
 }
 
 // New creates a new Glaw client.
