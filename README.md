@@ -1,4 +1,4 @@
-# pushshift-golang
+# pushshift-go
 Go wrapper for the PushShift Reddit API. 
 
 PushShift is a free, no signup required API for searching Reddit Submissions, comments, and more. It is the only public API that allows for searching Reddit posts by date since the official Reddit API has removed that feature.
