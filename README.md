@@ -63,4 +63,4 @@ PushShift rate limits you by IP address to around ~200 requests per minute. No a
 
 ## Roadmap
 
-Currently only searching Submissions is implemented. Full implementation to come.
+Currently only searching Submissions and Comments is implemented. Subreddit search is broken on PushShift's side right now. I'll implement this once it's back online.
